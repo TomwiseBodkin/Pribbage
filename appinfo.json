@@ -1,0 +1,9 @@
+{
+  "id": "net.chickenbee.pribbage",
+  "version": "0.4.0",
+  "vendor": "Chickenbee Software",
+  "type": "web",
+  "main": "index.html",
+  "title": "Pribbage",
+  "icon": "icon.png"
+}

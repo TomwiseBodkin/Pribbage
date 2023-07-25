@@ -1,0 +1,522 @@
+<div id="about" class="palm-hasheader">
+<div class="palm-page-header">
+<div class="palm-page-header-wrapper">
+<div class="title">Règles du Cribbage
+</div></div></div>
+
+<table class="palm-divider collapsible" x-mojo-touch-feedback="delayed">
+<tr>
+<td class="left"></td>
+<td class="label">
+À propos
+</td>
+<td class="line"></td>
+<td><div id="RuleButton1" class="palm-arrow-closed arrow_button"></div></td>
+<td class="right"></td>
+</tr>
+</table>
+<div x-mojo-element="Drawer" class="about-drawer" id="RuleDrawer1">
+<div class="palm-group unlabeled">
+<div class="palm-list">
+<div class="palm-row single">
+<div class="palm-row-wrapper">
+<div class="palm-body-text" style="font-size:14px;text-align:justify">
+Cribbage (appelé ici Pribbage) est un jeu de cartes pour deux joueurs. Dans cette
+version particulière vous affrontez mes talents de programmation, 
+incarnés par l'ordinateur. Les deux adversaires au cribbage sont
+connus comme le 'donneur' et le 'coupeur' et changent de rôles après
+chaque manche. Le but est de marquer 61 ou 121 points plus vite que son
+adversaire. Les points sont obtenus
+par différentes combinaisons (comprenant des cartes dont la somme
+vaut 15, des suites, des couleurs et des séquences de cartes de même valeur)
+formées à la fois dans le jeu ou bien montrées en main. Une planche à trous est
+utilisée traditionnellement pour marquer le score, avec des fiches que l'on bouge
+le long d'un parcours. Le jeu date du 17e siècle environ et est un éternel
+favori des amateurs de pub et des utilisateurs de PDA/smart-phone partout dans le monde.
+</div></div></div></div>
+</div></div>
+
+<table class="palm-divider collapsible" x-mojo-touch-feedback="delayed">
+<tr>
+<td class="left"></td>
+<td class="label">
+Règles
+</td>
+<td class="line"></td>
+<td><div id="RuleButton2" class="palm-arrow-closed arrow_button"></div></td>
+<td class="right"></td>
+</tr>
+</table>
+<div x-mojo-element="Drawer" class="palm-drawer" id="RuleDrawer2">
+<div class="palm-group unlabeled">
+<div class="palm-list">
+<div class="palm-row first">
+<div class="palm-row-wrapper">
+<div class="palm-body-text" style="font-size:14px;text-align:justify">
+Tentez votre chance. Ou bien vous connaissez cribbage, ou vous êtes assez malin
+pour le comprendre (vous utilisez un Palm après tout). Une règle du jeu
+complète irait trop loin pour être incluse ici, donc
+je devrais vous recommander d'autres sites...
+</div></div></div>
+<div class="palm-row">
+<div class="palm-row-wrapper">
+<div class="palm-body-text" style="font-size:14px;text-align:justify">
+Pour une version officielle des règles de compétition, jetez un œil sur
+<a href="http://cribbage.org/rules/">cribbage.org,</a> le site de
+l'American Cribbage Congress (en anglais). La plupart des règles et des décomptes particuliers
+dans Pribbage sont basés sur ma lecture des règles de l'ACC.
+</div></div></div>
+<div class="palm-row last">
+<div class="palm-row-wrapper">
+<div class="palm-body-text" style="font-size:14px;text-align:justify">
+<a href="http://www.pagat.com/adders/crib6.html">Les règles du site
+pagat.com</a> sont un peu plus succinctes et un peu plus
+facile à lire. Ils ont aussi les règles pour <a
+href="http://www.pagat.com/adders/cribbage.html">le cribbage à 5 cartes</a>.
+</div></div></div></div>
+</div></div>
+
+<table class="palm-divider collapsible" x-mojo-touch-feedback="delayed">
+<tr>
+<td class="left"></td>
+<td class="label">
+Points
+</td>
+<td class="line"></td>
+<td><div id="RuleButton3" class="palm-arrow-closed arrow_button"></div></td>
+<td class="right"></td>
+</tr>
+</table>
+<div x-mojo-element="Drawer" class="palm-drawer" id="RuleDrawer3">
+<div class="palm-group unlabeled">
+<div class="palm-list">
+<div class="palm-row first">
+<div class="palm-row-wrapper">
+<div class="palm-body-text" style="font-size:14px;text-align:justify">
+Il y a deux phases pour marquer à chaque manche&nbsp;: le jeu et
+l'affichage des mains. Le calcul des scores est présenté ci dessous (fortement
+emprunté au site <a href="http://www.pagat.com/adders/crib6.html"> de&nbsp;John
+McLeod</a>).
+</div></div></div>
+<div class="palm-row">
+<div class="palm-row-wrapper">
+<div class="palm-body-text" style="font-size:14px;text-align:justify">
+Pendant la phase de 'jeu' le donneur et le coupeur joue à leur tour des cartes
+jusqu'à un maximum de 31 (basé sur la valeur faciale de
+chacune des cartes). Durant cette phase, les points sont accordés pour
+le compte de 15, 31, les suites de trois cartes ou plus dans n'importe
+quel ordre, la dernière carte ou l'impossibilité pour le joueur opposé
+de jouer sans dépasser 31.
+
+<dl>
+<dt><strong>15&nbsp;:</strong> 
+</dt><dd>Si vous jouez une carte qui amène le total des points à 15
+vous gagnez 2 points.
+</dd><dt><strong>31&nbsp;:</strong> 
+</dt><dd>Si vous jouez une carte qui amène le total des points
+à exactement 31 vous gagnez 2 points. Le total est alors remis à zéro.
+</dd><dt><strong>Paire&nbsp;:</strong> 
+</dt><dd>Si vous jouez une carte du même rang que la précédente vous
+avancez votre fiche de 2. Deux cartes de valeur faciale différente ne forment pas
+une paire même si elles valent 10 points toutes les deux.
+</dd><dt><strong>Paire Royale&nbsp;:</strong> 
+</dt><dd>Trois cartes de même rang jouées en suivant
+valent 6 pour une <i>paire royale</i>.
+</dd><dt><strong>Double Paire Royale&nbsp;:</strong> 
+</dt><dd>Quatre cartes de même rang jouées en suivant
+valent 12 pour une <i>double paire royale</i>.
+</dd><dt><strong>Suite&nbsp;:</strong> 
+</dt><dd>Une <i>suite</i> est une série de 3 cartes ou plus
+qui se suivent (quelque soit la couleur). Le joueur
+qui complète la suite marque les points&nbsp;; le score
+est égal au nombre de cartes dans la suite. Les cartes n'ont pas
+besoin d'être jouées dans l'ordre, mais aucune autre carte ne doit intervenir.<br>
+<strong>Exemple&nbsp;:</strong> si les cartes sont jouées dans l'ordre suivant&nbsp;:
+6-5-3-2-4. Le joueur du 4 marque cinq pour une suite, puisque
+cela complète la suite 2-3-4-5-6.<br>
+<strong>Exemple&nbsp;:</strong> une suite 6-5-4 marquent 5 points (en considérant
+que le total de départ est zéro), ce qui inclus la marque de
+15 pour deux et une suite pour trois.
+</dd><dt><strong>Dernière carte&nbsp;:</strong>
+</dt><dd>Si aucun joueur n'arrive à un total exact de 31,
+celui qui a joué la dernière carte du tour marque un point.
+</dd></dl>
+
+</div></div></div>
+<div class="palm-row">
+<div class="palm-row-wrapper">
+<div class="palm-body-text" style="font-size:14px;text-align:justify">
+La marque lors de l'affichage des mains est similaire à celle du jeu,
+mais en se basant seulement sur les mains de chaque joueur associées à la carte coupée.
+
+<dl><dt><strong>15&nbsp;:</strong> 
+</dt><dd>Toute combinaison de cartes dont la somme vaut 15 marquent deux
+points.
+</dd><dt><strong>Paire&nbsp;:</strong> 
+</dt><dd>Une paire de cartes de même rang marque 2 points. Trois cartes
+de même rang forment 3 paires différentes et donc marquent un total de six
+points pour une <i>paire royale</i>. Un carré contient 6 paires et donc
+marque 12 points pour une <i>double paire royale</i>.
+</dd><dt><strong>Suite&nbsp;:</strong> 
+</dt><dd>Trois cartes qui se suivent (quelque soit la couleur), comme
+A-2-3 marquent 3 points pour une suite. Une main de A-2-2-3 est une <i>double
+suite</i> et marquent huit points, ce qui comprend 2 suites de trois points et
+une paire pour deux. Une main de A-2-2-2-3 (avec la carte de coupe)
+est une <i>triple suite</i> (trois suites de A-2-3 et une paire royale) et
+marquerait 15 points. Une main de A-2-2-3-3 est une <i>double double
+suite</i> ou une <i>quadruple suite</i> et marquerait 16 points (ce qui comprend
+quatre suite de trois et deux paires).
+</dd><dt><strong>Couleur&nbsp;:</strong> 
+</dt><dd>Si les quatre cartes de la main sont de la même couleur, on marque
+4 points pour une couleur. Si la carte de coupe est de la même couleur aussi, la
+couleur vaut 5 points.
+</dd><dt><strong>Un pour sa caboche&nbsp;:</strong> 
+</dt><dd>Si la main contient le valet de la même couleur que la carte
+de coupe, vous marquez <i>un pour sa caboche</i>.
+</dd><dt><strong>Dix-neuf&nbsp;:</strong>
+</dt><dd>Il est impossible de marquer dix-neuf dans sa main. Si vous
+pensez les avoir, vous devriez arrêter de jouer ou bien arrêter de boire.
+<i>Dix-neuf</i> est généralement utilisé pour indiquer
+une main nulle.</dd></dl>
+
+</div></div></div>
+<div class="palm-row">
+<div class="palm-row-wrapper">
+<div class="palm-body-text" style="font-size:14px;text-align:justify">
+D'autres points peuvent être accordés, comme 'ses talons' et
+coupe-gorge&nbsp;: si la carte de coupe est un valet, le donneur gagne immédiatement
+deux points - ce qu'on appelle <i>Deux pour ses talons</i>. Coupe-gorge se passe
+quand vous oubliez ou prenez trop de points (en score manuel donc) et que
+l'adversaire vous les réclame. L'adversaire peut alors
+prendre les points pour lui. Ce n'est pas mis en place dans Pribbage,
+pour l'instant.
+</div></div></div>
+<div class="palm-row last">
+<div class="palm-row-wrapper">
+<div class="title">
+Table de score&nbsp;:
+</div><div class="palm-body-text" style="font-size:14px;text-align:justify">
+<table width="100%" border="2">
+<tr>
+<td></td><td width="18%">Jeu</td><td width="18%">Main</td>
+</tr>
+<tr>
+<td class="tdcards">Ses talons (Valet de coupe)</td><td>2</td><td></td>
+</tr>
+<tr>
+<td class="tdcards">Sa caboche (Valet de la même couleur que la coupe en main)</td><td></td><td>1</td>
+</tr>
+<tr>
+<td class="tdcards">Paire</td><td>2</td><td>2</td>
+</tr>
+<tr>
+<td class="tdcards">Paire royale (brelan)</td><td>6</td><td>6</td>
+</tr>
+<tr>
+<td class="tdcards">Double paire royale (carré)</td><td>12</td><td>12</td>
+</tr>
+<tr>
+<td class="tdcards">Suites (3 minimun, point par carte)</td><td>1</td><td>1</td>
+</tr>
+<tr>
+<td class="tdcards">15</td><td>2</td><td>2</td>
+</tr>
+<tr>
+<td class="tdcards">Couleur (4 en main)</td><td></td><td>4</td>
+</tr>
+<tr>
+<td class="tdcards">Couleur (5 en tout)</td><td></td><td>5</td>
+</tr>
+<tr>
+<td class="tdcards">Atteindre 31 exactement</td><td>2*</td><td></td>
+</tr>
+<tr>
+<td class="tdcards">"Go" (l'autre ne peut pas jouer)</td><td>1*</td><td></td>
+</tr>
+<tr>
+<td class="tdcards">Dernière carte</td><td>1*</td><td></td>
+</tr>
+</table>
+* = un seul des trois peut être marqué avec une même carte.
+</div></div></div></div>
+</div></div>
+
+
+<table class="palm-divider collapsible" x-mojo-touch-feedback="delayed">
+<tr>
+<td class="left"></td>
+<td class="label">
+Divers
+</td>
+<td class="line"></td>
+<td><div id="RuleButton4" class="palm-arrow-closed arrow_button"></div></td>
+<td class="right"></td>
+</tr>
+</table>
+<div x-mojo-element="Drawer" class="palm-drawer" id="RuleDrawer4">
+<div class="palm-group unlabeled">
+<div class="palm-list">
+<div class="palm-row single">
+<div class="palm-row-wrapper">
+<div class="palm-body-text" style="font-size:14px;text-align:justify">
+Les informations suivantes sont principalement des bizzareries, des statistiques
+et des conseils qui deviendront évidents quand vous aurez joué un certain temps à cribbage. 
+Des informations plus détaillées sur la stratégie peuvent être trouvées sur <a
+href="http://cribbage.org/tips/">cribbage.org</a> ou
+<a href="http://www.cribbageforum.com/">le Forum Cribbage</a>.
+</div></div></div></div>
+</div>
+
+<div class="palm-group unlabeled">
+<div class="palm-list">
+<div class="palm-row first">
+<div class="palm-row-wrapper">
+<div class="title">Statistiques</div>
+</div></div>
+<div class="palm-row">
+<div class="palm-row-wrapper">
+<div class="palm-body-text" style="font-size:14px;text-align:justify">
+Il y a plus de 12 millions (12&nbsp;994&nbsp;800&nbsp; pour être exact) mains possible au
+cribbage. Le plus haut score est 29, qui vient avec une main
+5-5-5-V et la carte de coupe le 5 de la même couleur que le
+V. 
+</div></div></div>
+<div class="palm-row">
+<div class="palm-row-wrapper">
+<div class="palm-body-text" style="font-size:14px;text-align:justify">
+Les scores moyens par main et pour le crib à la fois pour le donneur et le coupeur sont montrés
+dans la table suivante pour le cribbage à 6 et 5 cartes (calcul basé
+sur des données statistiques calculées en utilisant les algorithmes de Pribbage
+et 10 millions de paires de mains distribuées).
+<div class="palm-body-text" style="font-size:12px;text-align:justify">
+<TABLE BORDER="2" WIDTH="100%">
+        <TBODY>
+                <TR>
+                        <TD>&nbsp;</TD>
+                        <TH>cribbage à 6 cartes</TH>
+                        <TH>cribbage à 5 cartes</TH>
+                </TR>
+                <TR>
+                        <TD>Donneur moy. et dev. std&nbsp;:</TD>
+                        <TD>7,99 &plusmn; 3,82</TD>
+                        <TD>6,64 &plusmn; 3,56</TD>
+                </TR>
+                <TR>
+                        <TD>Coupeur moy. et dev. std&nbsp;:</TD>
+                        <TD>8,14 &plusmn; 3,72</TD>
+                        <TD>6,64 &plusmn; 3,56</TD>
+                </TR>
+                <TR>
+                        <TD>Crib moy. et dev. std&nbsp;:</TD>
+                        <TD>4,78 &plusmn; 3,21</TD>
+                        <TD>4,53 &plusmn; 3,13</TD>
+                </TR>
+        </TBODY>
+</TABLE>
+</div>			
+
+</div></div></div>
+<div class="palm-row last">
+<div class="palm-row-wrapper">
+<div class="palm-body-text" style="font-size:14px;text-align:justify">
+La table suivante est le résultat de calcul que j'ai fait
+pour voir avec quelle précision (c'est à dire  avec quel hasard) les cartes
+étaient distribuées par le code de Pribbage. D'autres données statistiques
+peuvent être trouvées sur internet (par ex. sur Wikipedia) pour comparer, même si
+la façon d'obtenir ces données diffère de manière significative des
+méthodes pour obtenir mes données. Les données de Wikipedia
+(qui vienne initialement de <a 
+href="http://users.crhc.illinois.edu/steve/humor/cribbage.html">Steve
+Lumetta</a>), parcourent toutes les mains possibles
+séquentiellement (un peu plus de 12 millions de mains potentielles) et ne tiennent pas
+compte de la sélection pour le crib et de l'optimisation de la main
+pour obtenir un score maximum. Mon code, au contraire, donne aléatoirement six
+cartes à la fois au donneur et au coupeur et applique l'algorithme de défausse
+du mode difficile pour enlever les deux cartes du crib à chaque main.
+L'algorithme de défausse utilise
+<a href="http://www.cribbageforum.com/YourCrib.htm">l'analyse
+statistique</a> pour optimiser les cartes restantes pour un score
+maximum. Tout ceci est suivi par le tirage aléatoire d'une carte de coupe de
+la pioche et le calcul du score des cinq cartes de chaque main. 10
+millions de mains est le nombre choisi de façon arbitraire pour
+assurer que les résultats convergent vers la solution finale. Il y a peu de
+différences entre 1, 10 et 15 millions de mains, ce qui suggére
+la convergence et la validité statistique de l'échantillon. En tout cas,
+c'est la conclusion que je tire de cette évalution sans relecteur.</div>
+
+<div class="palm-body-text" style="font-size:14px;text-align:justify">
+En tout état de cause, la routine de sélection du crib différe légérement entre le donneur
+et le coupeur, et les deux approches ont été examinées. 15&nbsp;000&nbsp;000 de paires de
+mains ont été données pour générer ces statistiques. En se basant sur ces résultats,
+il n'apparait pas de bias clair dans un sens ou dans l'autre (c'est-à-dire pour
+le donneur ou le coupeur) et la distribution du crib montre la distribution
+la plus aléatoire qui correspond presque exactement aux données disponibles sur
+Wikipedia. Si vous êtes arrivé jusque là, bravo&nbsp;! Si vous êtes encore en train de geindre
+par ce que l'ordinateur triche, arrêtez de jouer&nbsp;!
+</div>
+<div class="palm-body-text" style="font-size:12px;text-align:justify">
+<table border="2" width="100%">
+<tr><th>Points</th><th>Pourcentage (donneur)</th><th>Pourcentage (coupeur)</th><th>Pourcentage (crib)</th></tr>
+<tr><td>0</td><td>0,671%</td><td>0,379%</td><td>7,65%</td></tr>
+<tr><td>1</td><td>0,0415%</td><td>0,0464%</td><td>0,594%</td></tr>
+<tr><td>2</td><td>6,1%</td><td>4,27%</td><td>23,6%</td></tr>
+<tr><td>3</td><td>1,71%</td><td>1,34%</td><td>3,87%</td></tr>
+<tr><td>4</td><td>11,6%</td><td>12%</td><td>20,4%</td></tr>
+<tr><td>5</td><td>3,81%</td><td>3,59%</td><td>5,57%</td></tr>
+<tr><td>6</td><td>15,7%</td><td>15,6%</td><td>14,1%</td></tr>
+<tr><td>7</td><td>6,45%</td><td>6,91%</td><td>4,81%</td></tr>
+<tr><td>8</td><td>17,2%</td><td>18,9%</td><td>8,83%</td></tr>
+<tr><td>9</td><td>6,37%</td><td>6,54%</td><td>2,29%</td></tr>
+<tr><td>10</td><td>8,85%</td><td>8,51%</td><td>3,14%</td></tr>
+<tr><td>11</td><td>1,48%</td><td>1,57%</td><td>0,282%</td></tr>
+<tr><td>12</td><td>10,2%</td><td>10,4%</td><td>3,26%</td></tr>
+<tr><td>13</td><td>0,768%</td><td>0,857%</td><td>0,126%</td></tr>
+<tr><td>14</td><td>3,35%</td><td>3,41%</td><td>0,623%</td></tr>
+<tr><td>15</td><td>0,506%</td><td>0,474%</td><td>0,0967%</td></tr>
+<tr><td>16</td><td>3,28%</td><td>3,16%</td><td>0,578%</td></tr>
+<tr><td>17</td><td>0,667%</td><td>0,68%</td><td>0,0958%</td></tr>
+<tr><td>18</td><td>0,186%</td><td>0,189%</td><td>0,0275%</td></tr>
+<tr><td>19</td><td>0%</td><td>0%</td><td>0%</td></tr>
+<tr><td>20</td><td>0,578%</td><td>0,594%</td><td>0,0735%</td></tr>
+<tr><td>21</td><td>0,173%</td><td>0,184%</td><td>0,0258%</td></tr>
+<tr><td>22</td><td>0,0386%</td><td>0,0398%</td><td>0,00103%</td></tr>
+<tr><td>23</td><td>0,0217%</td><td>0,0258%</td><td>0,000347%</td></tr>
+<tr><td>24</td><td>0,293%</td><td>0,302%</td><td>0,0274%</td></tr>
+<tr><td>25</td><td>0%</td><td>0%</td><td>0%</td></tr>
+<tr><td>26</td><td>0%</td><td>0%</td><td>0%</td></tr>
+<tr><td>27</td><td>0%</td><td>0%</td><td>0%</td></tr>
+<tr><td>28</td><td>0,00675%</td><td>0,00679%</td><td>0,000107%</td></tr>
+<tr><td>29</td><td>0,000327%</td><td>0,000433%</td><td>6,67e-06%</td></tr>
+<tr><td><strong>Moyenne</strong></td><td>7,99 &plusmn; 3,82</td><td>8,14 &plusmn; 3,72</td> <td>4,78 &plusmn; 3,21</td></tr>
+</table>
+</div></div></div></div>
+</div>
+
+<div class="palm-group unlabeled">
+<div class="palm-list">
+<div class="palm-row first">
+<div class="palm-row-wrapper">
+<div class="title">Astuces</div>
+</div></div>
+<div class="palm-row last">
+<div class="palm-row-wrapper">
+<div class="palm-body-text" style="font-size:14px;text-align:justify">
+Beaucoup de joueurs expérimentés ont fournis de nombreuses astuces en ligne 
+(piéger les V et les 5, stratégie de points pour la fin du jeu, etc) qui sont
+disponible sur les divers liens suivant.
+<ul>
+<li><a href="http://cribbagecorner.com/strategy">Cribbage Corner</a>
+<li><a href="http://www.cribbageforum.com/">Cribbage Forum</a>
+<li><a href="http://www.cribbage.org/tips/">American Cribbage Congress</a>
+</ul>
+</div></div></div></div>
+</div>
+
+<div class="palm-group unlabeled">
+<div class="palm-list">
+<div class="palm-row first">
+<div class="palm-row-wrapper">
+<div class="title">L'approche de Pribbage</div>
+</div></div>
+<div class="palm-row">
+<div class="palm-row-wrapper">
+<div class="palm-body-text" style="font-size:14px;text-align:justify">
+Pribbage utilise une série alambiquée de calcul et de tables de correspondance
+pour déterminer les cartes à envoyer au crib. Les tables de correspondance
+sont basées sur <a
+href="http://www.cribbageforum.com/SchellDiscard.htm">les tables de défausse
+de Michael Schell</a> et sont utilisées pour améliorer les calculs
+qui maximise le score potentiel de l'ordinateur. (L'algorithme est
+aussi disponible pour le joueur et peut être invoqué en tappant le crib
+avant de choisir les cartes à défausser.) Même si l'algorithme
+général de défausse est en cours d'optimisation, il semble
+déjà fournir un adversaire de bon niveau.
+</div></div></div>
+<div class="palm-row">
+<div class="palm-row-wrapper">
+<div class="palm-body-text" style="font-size:14px;text-align:justify">
+La sélection des cartes de l'ordinateur pendant le jeu est aussi réalisée
+à travers une autre série de calculs alambiqués qui (en théorie) sont
+supposés éviter les 'paires inutiles' et essayer
+de piéger les 5s (pas vraiment, mais cela sonne bien&nbsp;!). C'est un
+algorithme en constante évolution qui cherche à être le plus compétitif
+possible. Bien sur, s'il devient
+<i>trop</i> compétitif, j'ai mis dans la page de préférences une option
+pour changer le niveau de jeu. 
+</div></div></div>
+<div class="palm-row last">
+<div class="palm-row-wrapper">
+<div class="palm-body-text" style="font-size:14px;text-align:justify">
+Enfin, si l'ordinateur vous bat à plate couture et que vous jetez votre téléphone,
+merci de ne pas m'en tenir responsable.
+</div></div></div></div>
+</div></div>
+
+<table class="palm-divider collapsible" x-mojo-touch-feedback="delayed">
+<tr>
+<td class="left"></td>
+<td class="label">
+Crédits
+</td>
+<td class="line"></td>
+<td><div id="RuleButton5" class="palm-arrow-closed arrow_button"></div></td>
+<td class="right"></td>
+</tr>
+</table>
+<div x-mojo-element="Drawer" class="about-drawer" id="RuleDrawer5">
+<div class="palm-group unlabeled">
+<div class="palm-list">
+<div class="palm-row top">
+<div class="palm-row-wrapper">
+<div class="palm-body-text" style="font-size:14px;text-align:justify">
+Pribbage est &copy; Copyright 2010 Mark Crowder. Il est publié
+sous licence <a href="http://www.gnu.org/licenses/gpl.txt">GPL v3</a>.
+</div></div></div>
+<div class="palm-row">
+<div class="palm-row-wrapper">
+<div class="palm-body-text" style="font-size:14px;text-align:justify">
+Pribbage a été écrit par moi, Mark Crowder, en 2010 comme une expérience pour
+apprendre Javascript, CSS, et HTML5 pour le Palm webOS. J'ai été un utilisateur
+avide du Libre depuis 1994 et je voulais rendre un peu la pareille.
+J'espère que cela comble vos besoin de cribbage...
+</div></div></div>
+<div class="palm-row">
+<div class="palm-row-wrapper">
+<div class="palm-body-text" style="font-size:14px;text-align:justify">
+La traduction dans d'autres langues a été très généreusement offerte par
+les personnes suivantes&nbsp;:
+<dl>
+<dt><strong>Français&nbsp;:</strong></dt>
+<dd>William Dupré &lt;william.dupre at gmail.com&gt;</dd>
+<dt><strong>Allemand&nbsp;:</strong></dt>
+<dd>Merci de prendre contact si vous êtes intéressé par aider avec cette
+traduction.</dd>
+<dt><strong>Espagnol&nbsp;:</strong></dt>
+<dd>Merci de prendre contact si vous êtes intéressé par aider avec cette
+traduction.</dd>
+</dl>
+</div></div></div>
+<div class="palm-row">
+<div class="palm-row-wrapper">
+<div class="palm-body-text" style="font-size:14px;text-align:justify">
+La fonte du titre de la page d'accueil est <a
+href="http://www.dafont.com/black-boys-on-moped.font">"Black Boys on Mopeds"</a> par <a
+href="http://www.pizzadude.dk/">Jakob Fischer</a>.
+</div></div></div>
+<div class="palm-row last">
+<div class="palm-row-wrapper">
+<div class="palm-body-text" style="font-size:14px;text-align:justify">
+Commentaires, suggestions, copie d'écran d'une main de 29 points sont bienvenus
+sur mon <a href="mailto:pribbage@chickenbee.net">courriel</a> ou
+<a
+href="http://forums.precentral.net/homebrew-apps/232222-pribbage.html">le forum de
+PreCentral</a>. Si vous êtes à Portland, Oregon et que vous voulez
+une partie IRL, envoyez un courriel et on verra pour une rencontre&nbsp; Les dons sont
+<a href="http://chickenbee.net/pribbage/">bienvenus</a> pour agrémenter mes
+efforts de brassage maison (pour couvrir la fermentation et le logiciel),
+mais il n'y a pas d'obligations.
+</div></div></div></div>
+</div></div>
+
+
+</div>

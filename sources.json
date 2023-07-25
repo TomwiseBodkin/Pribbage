@@ -1,0 +1,47 @@
+[
+    {"source": "app/assistants/stage-assistant.js"},
+    {"source": "app/models/cards.js"},
+    {"source": "app/models/game.js"},
+    {"source": "app/models/datastorage.js"},
+    {"source": "app/models/canvasBoard.js"},
+    {
+        "scenes": "Game",
+        "source": "app/assistants/Game-assistant.js"
+    },
+    {
+        "scenes": "Game",
+	"source": "app/assistants/manScore-assistant.js"
+    },
+    {
+        "scenes": "Rules",
+        "source": "app/assistants/Rules-assistant.js"
+    },
+    {
+        "scenes": "start",
+        "source": "app/assistants/start-assistant.js"
+    },
+    {
+        "scenes": "Graph",
+        "source": "app/assistants/Graph-assistant.js"
+    },
+    {
+        "scenes": "finale",
+        "source": "app/assistants/finale-assistant.js"
+    },
+    {
+        "scenes": "highScores",
+        "source": "app/assistants/highScores-assistant.js"
+    },
+    {
+        "scenes": "preferences",
+        "source": "app/assistants/preferences-assistant.js"
+    },
+    {
+        "scenes": "preferences",
+        "source": "app/assistants/colorSelect-assistant.js"
+    },
+    {
+        "scenes": "Stats",
+        "source": "app/assistants/Stats-assistant.js"
+    }
+]

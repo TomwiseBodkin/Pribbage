@@ -1,0 +1,169 @@
+<html>
+<head>
+<title>Pribbage ch-ch-ch-changes</title>
+<link rel="stylesheet" type="text/css" href="prib.css" />
+</head>
+<body>
+<ul>
+<li>0.2.7:
+<ul>
+<li>Initial release to the wild.
+</ul>
+<li>0.2.8:
+<ul>
+<li>Mostly code clean-up and a few minor tweaks.
+</ul>
+<li>0.2.9:
+<ul>
+<li>Change cribScore to not score a 4-count flush for the crib. Has to be 5-count for a crib flush to stick. This is consistent with standard rules.
+<li>Make the hand and crib scores appear in a larger font.
+<li>Tweak computer play parameters a bit.
+<li>Started work on a preferences page to allow for manual scoring, muggins, different play levels, etc. Left taunting, but disabled, "Options" button on start screen.
+<li>Prettified some scenes (namely the start scene for both Pre and Pixi).  
+</ul>
+<li>0.2.10:
+<ul>
+<li>Modified and improved the crib card selection/deselection algorithm.
+<li>Added ranking to computer play algorithm to reduce 'bad behavior' on card selection.
+<li>Added options page and cookies for storing preferences.
+<li>Included 'counter' during play to show running total.
+<li>Took out all try{}catch(err){} enclosures to reduce some of the lag.
+<li>Started on play difficulty optimization for easy, medium, and hard.
+<li>Provided auto-scoring and auto-dealing options.
+<li>Submitted to App Catalog.
+</ul>
+<li>0.2.11:
+<ul>
+<li>Bug fix on 'gentle' mode with computer card crib selection.
+<li>Include an option for a 61-point game.
+<li>Include an option for a 5-card deal (with 2 cards dealt to the crib).
+<li>
+</ul>
+<li>0.2.12:
+<ul>
+<li>Added code to handle manual scoring.
+<li>Bux fixes for options.
+</ul>
+<li>0.2.13:
+<ul>
+<li>Change from div elements to canvas elements for cards. Some
+speed-up seen.
+</ul>
+<li>0.2.14:
+<ul>
+<li>Adding in stats DB for long-term scorekeeping.
+<li>Stats screen with different stats for each player name.
+</ul>
+<li>0.2.15:
+<ul>
+<li>Cribbage board is now a canvas element structure.
+<li>Modified whinge-inducing shuffle algorithm.
+</ul>
+<li>0.2.16:
+<ul>
+<li>Put in 'loser deals first' option. No need to always cut for who
+gets first deal.
+</ul>
+<li>0.3.0:
+<ul>
+<li>First release candidate for app catalog.
+<li>Tweaked the player statistics saving algorithm to avoid
+overwriting the table.
+</ul>
+<li>0.3.1:
+<ul>
+<li>More code clean-up.
+<li>Final clean up for card placement on Pixi.
+<li>Submitted to the Official App Catalog.
+</ul>
+<li>0.3.2:
+<ul>
+<li>Remove empty app menus.
+<li>Some clean-up of look and new title layout.
+<li>Published in app catalog!
+</ul>
+<li>0.3.3:
+<ul>
+<li>Start localization proceedings.
+<li>Finally fixed 'go' scoring bug.
+<li>Tweaked computer play to not be so defensive.
+<li>Other code clean-up and optimizations.
+</ul>
+<li>0.3.4:
+<ul>
+<li>Game play tweaking.
+<li>Allow both manual and auto scoring.
+<li>Include first translation into French.
+</ul>
+<li>0.3.5:
+<ul>
+<li>Game play tweaking.
+<li>Include better translation into French, including rules.
+</ul>
+<li>0.3.6:
+<ul>
+<li>Game play tweaking.
+</ul>
+<li>0.3.7:
+<ul>
+<li>Game play tweaking.
+<li>Submitted for publication.
+</ul>
+<li>0.3.8:
+<ul>
+<li>Stupid typo bug! Resubmitted to app catalog.
+</ul>
+<li>0.3.9/0.3.10:
+<ul>
+<li>Layout changes: tried to make computer/player position consistent
+on stats pages, allow different card back and background colors during
+play.
+<li>Database call optimization to make game stats show faster.
+<li>Added card rank+suit for each hand to scrolling info box for review.
+</ul>
+<li>0.3.11:
+<ul>
+<li>Submitted to app catalog.
+</ul>
+<li>0.3.12:
+<ul>
+<li>Added animation on/off switch. Kinda lame without, but whatever...
+<li>Modified the discard lookup table for crib selection. All values
+are now calculated based on average crib scores for particular cards.
+</ul>
+<li>0.3.13:
+<ul>
+<li>Submitted to app catalog.
+</ul>
+<li>0.3.14:
+<ul>
+<li>Minor tweaks and bugfixes.
+<li>Corrected double-skunk behavior.
+<li>Added option to review final board positioning.
+</ul>
+<li>0.3.18:
+<ul>
+<li>New stat model for players. Allows better analysis of saved
+statistics. Replaces old data (sorry).  
+<li>Stat graphs for players can be found in the player stat screen and
+tapping on the player stat window. Two graphs show cumulative
+distribution of hand and crib scores over series of games.
+<li>Started working on DB save/restore.
+</ul>
+<li>0.3.22:
+<ul>
+<li>Two more stat graphs for player stats: dealer and pone score
+distributions.
+<li>Added probability of score distribution to graphs for reference.
+<li>Improved data save and refresh algorithm.
+</ul>
+<li>0.3.24:
+<ul>
+<li>Tweaks to game-play.
+<li>Cleaned up localization (excuse my French!)
+</ul>
+</ul>
+</body>
+</html>
+
+
